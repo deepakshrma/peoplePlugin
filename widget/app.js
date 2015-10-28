@@ -34,7 +34,7 @@
 
       $routeProvider
         .when('/', {
-          templateUrl: 'templates/home.html',
+          templateUrl: 'home.html',
           controllerAs: 'WidgetHome',
           controller: 'WidgetHomeCtrl',
           resolve: {
@@ -69,7 +69,7 @@
           }
         })
         .when('/people/:id', {
-          templateUrl: 'templates/people.html',
+          templateUrl: 'people.html',
           controllerAs: 'WidgetPeople',
           controller: 'WidgetPeopleCtrl'
         })
