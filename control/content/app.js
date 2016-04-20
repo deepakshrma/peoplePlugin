@@ -79,8 +79,8 @@
                                         deferred.resolve({
                                             data: {
                                                 content: {
-                                                    images: [],
-                                                    description: '',
+                                                    images: [{action: "noAction",iconUrl:'http://buildfire.imgix.net/1461150342302-03724110515322536/55fe7700-06eb-11e6-ad32-af402fce17b6.jpeg',title: "image"}, {action: "noAction",iconUrl:'http://buildfire.imgix.net/1461150342302-03724110515322536/55121b30-06eb-11e6-aae4-45742639c60d.jpg',title: "image"}],
+                                                    description: 'The People plugin allows you to provide contact and about information for your personnel. However, you can also use it for other purposes such as announcements, initiatives, and more. Since this is a WYSIWYG you can also add images, videos, and links.',
                                                     sortBy: "Manually",
                                                     rankOfLastItem: 0
                                                 },
@@ -88,7 +88,8 @@
                                                     itemLayout: "item-layout-1",
                                                     listLayout: "list-layout-1",
                                                     backgroundImage: ''
-                                                }
+                                                },
+                                                default:true
                                             }
                                         });
                                     }
